@@ -1,0 +1,23 @@
+services:
+  d8custom.entity.access.checks:
+    class: 'Drupal\d8custom\Access\d8EntityAccessCheck'
+    tags: 
+      - { name: 'access_check', applies_to: '_d8_entity_access_check' }
+
+  d8custom.db.table.tb:
+    class: 'Drupal\d8custom\SkeletonClass'
+    arguments: ['@database']   
+   
+  d8custom.weather.manager:
+    class: 'Drupal\d8custom\WeatherManager'
+    arguments: ['@http_client', '@config.factory']
+
+  d8custom.response_subscriber:
+    class: 'Drupal\d8custom\EventSubscriber\ResponseSubscriber'
+    tags:
+    - { name: 'event_subscriber' }
+    
+  d8custom.block.cache:
+    class: 'Drupal\d8custom\BlockCache.php'
+    arguments: ['@database'] 
+    

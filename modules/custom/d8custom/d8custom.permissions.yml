@@ -1,0 +1,4 @@
+d8custom.accessContent.links:
+  title: 'Access to content'
+  description: Access to Content
+  restrict access: TRUE

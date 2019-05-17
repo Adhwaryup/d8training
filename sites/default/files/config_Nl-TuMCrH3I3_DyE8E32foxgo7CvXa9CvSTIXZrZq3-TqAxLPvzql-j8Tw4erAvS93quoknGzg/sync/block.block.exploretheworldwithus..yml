@@ -1,0 +1,25 @@
+uuid: ef7bf84a-d1c3-4df1-b891-b322c4558923
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:3d8293d5-1208-42e5-afec-c7d33b024c30'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: exploretheworldwithus.
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:3d8293d5-1208-42e5-afec-c7d33b024c30'
+settings:
+  id: 'block_content:3d8293d5-1208-42e5-afec-c7d33b024c30'
+  label: 'Explore the world with us.'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

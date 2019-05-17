@@ -1,0 +1,10 @@
+d8custom.static_custom_tab:
+  route_name: d8custom.staticContent
+  title: Static Content
+  base_route: d8custom.staticContent
+
+d8custom.anotherStaticContent_tab:
+  route_name: d8custom.anotherStaticContent
+  title: Another Static Content
+  base_route: d8custom.staticContent
+

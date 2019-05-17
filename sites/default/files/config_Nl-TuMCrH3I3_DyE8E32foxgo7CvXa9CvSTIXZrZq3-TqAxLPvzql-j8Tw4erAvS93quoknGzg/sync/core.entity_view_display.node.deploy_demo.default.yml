@@ -1,0 +1,29 @@
+uuid: c61a8f41-d938-4b1e-80a6-8271be139080
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.deploy_demo.body
+    - node.type.deploy_demo
+  module:
+    - text
+    - user
+id: node.deploy_demo.default
+targetEntityType: node
+bundle: deploy_demo
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

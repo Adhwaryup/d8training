@@ -1,0 +1,11 @@
+uuid: ef36c061-ea5b-4864-aa32-66de2dd66a26
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.deploy_demo
+id: node.deploy_demo
+target_entity_type_id: node
+target_bundle: deploy_demo
+default_langcode: site_default
+language_alterable: false
